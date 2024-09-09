@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <url>https://github.com/buda-base/analysis-bdrc</url>
 
-    <artifactId>opensearch-analysis-tibetan</artifactId>
+    <artifactId>opensearch-analysis-bdrc</artifactId>
     <description>Analysis components for BDRC for Opensearch</description>
     <packaging>jar</packaging>
 
@@ -80,7 +80,7 @@
         </dependency>
         <dependency>
             <groupId>io.bdrc.lucene</groupId>
-            <artifactId>lucene-sa</artifactId>
+            <artifactId>lucene-km</artifactId>
             <version>0.0.1</version>
         </dependency>
         <dependency>

@@ -7,7 +7,7 @@
   <name>analysis-bdrc</name>
   <inceptionYear>2024</inceptionYear>
   <description>Analysis packages for BDRC (Opensearch and Elasticsearch)</description>
-  <url>https://github.com/buda-base/analysis-tibetan</url>
+  <url>https://github.com/buda-base/analysis-bdrc</url>
   <modules>
         <module>opensearch</module>
       </modules>
