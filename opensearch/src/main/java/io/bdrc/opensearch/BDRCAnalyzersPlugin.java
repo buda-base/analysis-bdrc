@@ -17,14 +17,15 @@ public class BDRCAnalyzersPlugin extends Plugin implements AnalysisPlugin {
     @Override
     public Map<String, AnalysisModule.AnalysisProvider<CharFilterFactory>> getCharFilters() {
         Map<String, AnalysisModule.AnalysisProvider<CharFilterFactory>> extra = new HashMap<>();
-        extra.put("sanskrit", SanskritCharFilterFactory::new);
+        extra.put("iast", SanskritCharFilterFactory::new);
+        extra.put("mymr", MymrCharFilterFactory::new);
         return extra;
     }
     
     @Override
     public Map<String, AnalysisModule.AnalysisProvider<TokenizerFactory>> getTokenizers() {
         Map<String, AnalysisModule.AnalysisProvider<TokenizerFactory>> extra = new HashMap<>();
-        extra.put("sanskrit", SanskritTokenizerFactory::new);
+        extra.put("iast", SanskritTokenizerFactory::new);
         return extra;
     }
 }
