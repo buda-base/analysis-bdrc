@@ -70,11 +70,6 @@
         </dependency>
         <dependency>
             <groupId>io.bdrc.lucene</groupId>
-            <artifactId>lucene-zh</artifactId>
-            <version>0.4.2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.bdrc.lucene</groupId>
             <artifactId>lucene-sa</artifactId>
             <version>1.3.0</version>
         </dependency>
@@ -113,9 +108,6 @@
                                 <configuration>
                                     <artifactSet>
                                         <includes>
-                                            <include>io.bdrc.lucene:stemmer</include>
-                                            <include>io.bdrc.lucene:lucene-bo</include>
-                                            <include>io.bdrc.lucene:lucene-zh</include>
                                             <include>io.bdrc.lucene:lucene-sa</include>
                                             <include>io.bdrc.lucene:lucene-km</include>
                                             <include>io.bdrc.lucene:lucene-Mymr</include>
